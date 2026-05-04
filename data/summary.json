@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-04T08:49:41",
+  "generated_at": "2026-05-04T10:00:02",
   "window": {
     "start_date": "2026-01-02",
     "end_date": "2026-05-01"
@@ -200,6 +200,6 @@
   "data_quality": {
     "universe_source": "fallback_static_large_cap_list: stock_filter yielded only 10 usable histories out of 50",
     "common_stock_filter": "OTC and non-common US stock symbols are excluded before history loading.",
-    "github_policy": "Public GitHub Pages snapshot: debbywu12/futu-strategy-dashboard"
+    "github_policy": "Public GitHub Pages snapshot: debbywu12/debbywu12-strategy-dashboard"
   }
 }
