@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-04T08:34:25",
+  "generated_at": "2026-05-04T08:47:46",
   "window": {
     "start_date": "2026-01-02",
     "end_date": "2026-05-01"
@@ -151,72 +151,48 @@
     {
       "sector": "Semiconductors",
       "trade_count": 8,
-      "wins": 5,
-      "pnl": 4445.778600662347,
-      "return_sum": 57.614235246862314,
       "win_rate_pct": 62.5,
       "avg_return_pct": 7.201779405857789
     },
     {
       "sector": "Energy",
       "trade_count": 3,
-      "wins": 2,
-      "pnl": 2795.965792370608,
-      "return_sum": 35.038775885096165,
       "win_rate_pct": 66.66666666666666,
       "avg_return_pct": 11.679591961698721
     },
     {
       "sector": "Consumer Staples",
       "trade_count": 7,
-      "wins": 5,
-      "pnl": 929.9420809430783,
-      "return_sum": 13.736497617371725,
       "win_rate_pct": 71.42857142857143,
       "avg_return_pct": 1.962356802481675
     },
     {
       "sector": "Industrials",
       "trade_count": 2,
-      "wins": 1,
-      "pnl": 678.5272356512306,
-      "return_sum": 8.158141362571326,
       "win_rate_pct": 50.0,
       "avg_return_pct": 4.079070681285663
     },
     {
       "sector": "Communication Services",
       "trade_count": 1,
-      "wins": 1,
-      "pnl": 33.5625881565732,
-      "return_sum": 0.4235727440088599,
       "win_rate_pct": 100.0,
       "avg_return_pct": 0.4235727440088599
     },
     {
       "sector": "Information Technology",
       "trade_count": 2,
-      "wins": 0,
-      "pnl": -154.22315506280574,
-      "return_sum": -3.771550114248101,
       "win_rate_pct": 0.0,
       "avg_return_pct": -1.8857750571240506
     },
     {
       "sector": "Financials",
       "trade_count": 4,
-      "wins": 1,
-      "pnl": -496.7260981849487,
-      "return_sum": -6.1992496798156544,
       "win_rate_pct": 25.0,
       "avg_return_pct": -1.5498124199539136
     },
     {
       "sector": "Health Care",
       "trade_count": 14,
-      "wins": 4,
-      "pnl": -926.8039152401595,
-      "return_sum": -3.370458725408389,
       "win_rate_pct": 28.57142857142857,
       "avg_return_pct": -0.24074705181488493
     }
