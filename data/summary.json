@@ -1,0 +1,229 @@
+{
+  "generated_at": "2026-05-04T08:32:43",
+  "window": {
+    "start_date": "2026-01-02",
+    "end_date": "2026-05-01"
+  },
+  "overview": {
+    "combined_return_pct": 3.6530115646479455,
+    "combined_max_drawdown_pct": 1.1173118488930878,
+    "combined_trade_count": 41,
+    "combined_win_rate_pct": 46.34146341463415,
+    "combined_cost_return_pct": 3.3586288459673153,
+    "market_gate_open": true,
+    "market_score": 7.0,
+    "market_gate_closed_count": 42,
+    "member_count": 50
+  },
+  "strategy_rows": [
+    {
+      "key": "momentum_leaders",
+      "name": "Momentum Leaders",
+      "return_pct": 5.202544054812441,
+      "annualized_return_pct": 16.84382245524365,
+      "max_drawdown_pct": 2.0870007191797546,
+      "final_equity": 105202.54405481243,
+      "trade_count": 28,
+      "win_rate_pct": 42.857142857142854,
+      "profit_factor": 2.0997194499451908,
+      "avg_holding_days": 17.642857142857142
+    },
+    {
+      "key": "golden_cross_reversal",
+      "name": "Golden Cross Reversal",
+      "return_pct": 2.103479074483472,
+      "annualized_return_pct": 6.59783435376442,
+      "max_drawdown_pct": 0.6458895582051927,
+      "final_equity": 102103.47907448346,
+      "trade_count": 13,
+      "win_rate_pct": 53.84615384615385,
+      "profit_factor": 8.056334363490894,
+      "avg_holding_days": 9.538461538461538
+    },
+    {
+      "key": "combined_50_50",
+      "name": "Combined 50/50",
+      "return_pct": 3.6530115646479455,
+      "annualized_return_pct": 11.64159529451294,
+      "max_drawdown_pct": 1.1173118488930878,
+      "final_equity": 103653.01156464795,
+      "trade_count": 41,
+      "win_rate_pct": 46.34146341463415,
+      "profit_factor": 2.452810270868774,
+      "avg_holding_days": 15.073170731707316
+    },
+    {
+      "key": "combined_no_market_gate",
+      "name": "Combined 50/50 No Market Gate",
+      "return_pct": 3.102214887422061,
+      "annualized_return_pct": 9.830718639232995,
+      "max_drawdown_pct": 1.8724171492224162,
+      "final_equity": 103102.21488742206,
+      "trade_count": 55,
+      "win_rate_pct": 41.81818181818181,
+      "profit_factor": 1.8359294888894302,
+      "avg_holding_days": 12.709090909090909
+    },
+    {
+      "key": "combined_with_cost",
+      "name": "Combined 50/50 with 0.1% one-way cost",
+      "return_pct": 3.3586288459673153,
+      "annualized_return_pct": 10.671257572771498,
+      "max_drawdown_pct": 1.1436491927242054,
+      "final_equity": 103358.62884596731,
+      "trade_count": 41,
+      "win_rate_pct": 46.34146341463415,
+      "profit_factor": 2.4511599388845546,
+      "avg_holding_days": 15.073170731707316
+    }
+  ],
+  "benchmark_rows": [
+    {
+      "name": "US.SPY",
+      "return_pct": 5.382463237173729,
+      "annualized_return_pct": 17.458246946301582,
+      "max_drawdown_pct": 8.884972554387083,
+      "final_equity": 105382.46323717372
+    },
+    {
+      "name": "US.QQQ",
+      "return_pct": 8.860405910704007,
+      "annualized_return_pct": 29.76750599038709,
+      "max_drawdown_pct": 11.723608339737012,
+      "final_equity": 108860.40591070401
+    },
+    {
+      "name": "equal_weight_candidate_universe",
+      "return_pct": 3.0138137704799783,
+      "annualized_return_pct": 9.541935711302951,
+      "max_drawdown_pct": 8.372723441871788,
+      "final_equity": 103013.81377047999
+    }
+  ],
+  "latest_sectors": [
+    {
+      "sector": "Consumer Staples",
+      "score": 26.393505050727615,
+      "member_count": 6,
+      "strong_count": 6,
+      "avg_ret20": 16.066680036305097,
+      "avg_ret60": 15.02732412303925,
+      "volume_expansion_count": 3
+    },
+    {
+      "sector": "Energy",
+      "score": 21.18854879552062,
+      "member_count": 2,
+      "strong_count": 2,
+      "avg_ret20": 19.38395639756193,
+      "avg_ret60": 21.30949110744623,
+      "volume_expansion_count": 2
+    },
+    {
+      "sector": "Health Care",
+      "score": 8.19960665039315,
+      "member_count": 9,
+      "strong_count": 3,
+      "avg_ret20": -3.24939932527105,
+      "avg_ret60": 6.347105117168915,
+      "volume_expansion_count": 4
+    },
+    {
+      "sector": "Semiconductors",
+      "score": 5.875927143442318,
+      "member_count": 6,
+      "strong_count": 2,
+      "avg_ret20": -4.330886849387663,
+      "avg_ret60": 2.6316596424221337,
+      "volume_expansion_count": 6
+    },
+    {
+      "sector": "Consumer Discretionary",
+      "score": 5.564394666114808,
+      "member_count": 4,
+      "strong_count": 2,
+      "avg_ret20": 0.03886867385220483,
+      "avg_ret60": -1.027932418015617,
+      "volume_expansion_count": 3
+    }
+  ],
+  "sector_contribution": [
+    {
+      "sector": "Semiconductors",
+      "trade_count": 8,
+      "wins": 5,
+      "pnl": 4445.778600662347,
+      "return_sum": 57.614235246862314,
+      "win_rate_pct": 62.5,
+      "avg_return_pct": 7.201779405857789
+    },
+    {
+      "sector": "Energy",
+      "trade_count": 3,
+      "wins": 2,
+      "pnl": 2795.965792370608,
+      "return_sum": 35.038775885096165,
+      "win_rate_pct": 66.66666666666666,
+      "avg_return_pct": 11.679591961698721
+    },
+    {
+      "sector": "Consumer Staples",
+      "trade_count": 7,
+      "wins": 5,
+      "pnl": 929.9420809430783,
+      "return_sum": 13.736497617371725,
+      "win_rate_pct": 71.42857142857143,
+      "avg_return_pct": 1.962356802481675
+    },
+    {
+      "sector": "Industrials",
+      "trade_count": 2,
+      "wins": 1,
+      "pnl": 678.5272356512306,
+      "return_sum": 8.158141362571326,
+      "win_rate_pct": 50.0,
+      "avg_return_pct": 4.079070681285663
+    },
+    {
+      "sector": "Communication Services",
+      "trade_count": 1,
+      "wins": 1,
+      "pnl": 33.5625881565732,
+      "return_sum": 0.4235727440088599,
+      "win_rate_pct": 100.0,
+      "avg_return_pct": 0.4235727440088599
+    },
+    {
+      "sector": "Information Technology",
+      "trade_count": 2,
+      "wins": 0,
+      "pnl": -154.22315506280574,
+      "return_sum": -3.771550114248101,
+      "win_rate_pct": 0.0,
+      "avg_return_pct": -1.8857750571240506
+    },
+    {
+      "sector": "Financials",
+      "trade_count": 4,
+      "wins": 1,
+      "pnl": -496.7260981849487,
+      "return_sum": -6.1992496798156544,
+      "win_rate_pct": 25.0,
+      "avg_return_pct": -1.5498124199539136
+    },
+    {
+      "sector": "Health Care",
+      "trade_count": 14,
+      "wins": 4,
+      "pnl": -926.8039152401595,
+      "return_sum": -3.370458725408389,
+      "win_rate_pct": 28.57142857142857,
+      "avg_return_pct": -0.24074705181488493
+    }
+  ],
+  "data_quality": {
+    "universe_source": "fallback_static_large_cap_list: stock_filter yielded only 10 usable histories out of 50",
+    "common_stock_filter": "OTC and non-common US stock symbols are excluded before history loading.",
+    "github_policy": "Public GitHub Pages snapshot: debbywu12/futu-strategy-dashboard"
+  }
+}

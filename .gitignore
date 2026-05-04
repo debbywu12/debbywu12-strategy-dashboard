@@ -1,0 +1,9 @@
+# Local/editor noise
+.DS_Store
+*.log
+
+# Never publish local secrets or raw data
+.env
+.futu-sdk-home/
+reports/
+strategy_live_state_latest.json
