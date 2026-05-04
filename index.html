@@ -329,7 +329,7 @@
       </div>
       <div class="header-meta">
         <div class="status-pill positive"><i class="status-dot"></i>大盘开关：打开 · Score 7.0</div>
-        <div>生成时间：2026-05-04 08:32:43</div>
+        <div>生成时间：2026-05-04 08:33:52</div>
       </div>
     </header>
 
@@ -831,26 +831,20 @@
     fillSelect(sectorFilter, uniqueSorted(trades.map((trade) => trade.sector)));
     fillSelect(exitFilter, uniqueSorted(trades.map((trade) => trade.exit_reason)));
 
-    const rowHtml = (trade) => {
-      const firstCells = `
+
+    const rowHtml = (trade) => `
+      <tr>
         <td><strong>${escapeHtml(trade.code)}</strong><span>${escapeHtml(trade.name)}</span></td>
         <td>${escapeHtml(trade.strategy_display || trade.strategy)}</td>
-        <td>${escapeHtml(trade.sector)}</td>`;
-      const entryCells = publicView
-        ? `<td>${escapeHtml(trade.entry_date)}</td><td>${escapeHtml(trade.exit_date)}</td>`
-        : `<td>${escapeHtml(trade.entry_date)}<span>${fmtMoney(trade.entry_price)}</span></td><td>${escapeHtml(trade.exit_date)}<span>${fmtMoney(trade.exit_price)}</span></td>`;
-      const pnlCell = publicView ? '' : `<td class="${tone(trade.pnl)}">${fmtMoney(trade.pnl)}</td>`;
-      return `
-        <tr>
-          ${firstCells}
-          ${entryCells}
-          <td class="${tone(trade.return_pct)}">${fmtPct(trade.return_pct)}</td>
-          ${pnlCell}
-          <td>${escapeHtml(trade.holding_days)}d</td>
-          <td>${escapeHtml(trade.entry_reason)}</td>
-          <td>${escapeHtml(trade.exit_reason)}</td>
-        </tr>`;
-    };
+        <td>${escapeHtml(trade.sector)}</td>
+        <td>${escapeHtml(trade.entry_date)}</td>
+        <td>${escapeHtml(trade.exit_date)}</td>
+        <td class="${tone(trade.return_pct)}">${fmtPct(trade.return_pct)}</td>
+        <td>${escapeHtml(trade.holding_days)}d</td>
+        <td>${escapeHtml(trade.entry_reason)}</td>
+        <td>${escapeHtml(trade.exit_reason)}</td>
+      </tr>`;
+
 
     const renderTrades = () => {
       const q = searchInput.value.trim().toLowerCase();
